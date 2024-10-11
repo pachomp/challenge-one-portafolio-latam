@@ -1,0 +1,304 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #A4C2C5;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.presentacion__contenedor {
+  padding: 100px;
+  text-align: justify;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.presentacion__subtitulo__consola{
+  font-weight:bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.presentacion__imagen{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.redes__img{
+color: black;
+}
+
+.redes__img a:hover{
+color: rgb(7, 146, 189);
+}
+
+.sobre-mi{
+padding: 100px;
+  text-align: justify;
+  background: #f1f2eb;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.sobre-mi__texto{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pasatiempos{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  text-align:center;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.pasatiempos__lista{
+  margin-top: 5%;
+  gap: 50px;
+  font-weight:bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.pasatiempos__icono{
+display: flex;
+width: 100px;
+border-radius: 30%;
+border: 5px solid black;
+}
+
+.pasatiempos__elemento{
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+}
+
+.habilidades__subseccion{
+  padding: 100px;
+  text-align: justify;
+  background: #f1f2eb;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.formacion{
+padding: 100px;
+text-align: center;
+background: white;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+}
+
+.formacion__titulo{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.formacion__icono{
+display: flex;
+width: 100px;
+}
+
+.formacion__lista{
+margin-top: 5%;
+gap: 30px;
+font-weight:bold;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+
+.formacion__elemento{
+display: flex;
+flex-direction: column;
+width: 100%;
+align-items: center;
+}
+
+.formacion__detalle2{
+color: green;
+}
+
+.experiencia{
+display: flex;
+flex-direction: column;
+padding: 100px;
+background: #f1f2eb;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+}
+
+.experiencia__titulo{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.experiencia__lista{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.experiencia__icono_tgo{
+width: 10%;
+}
+
+.experiencia__icono{
+width: 45%;
+}
+
+.experiencia__elemento{
+border-style:double;
+border: 3px solid black;
+display:flex;
+flex-direction: column;
+text-align: center;
+padding: 5%;
+}
+
+.experiencia__elemento2{
+display: flex;
+border-style:double;
+border: 3px solid black;
+flex-direction: column;
+text-align: center;
+padding: 5%;
+}
+
+.btn-ir {
+border: 1px solid black; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 25px; /*bordes redondos*/
+font-size: 0.7rem;
+}
+
+.btn-gh {
+border: 1px solid black; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 25px; /*bordes redondos*/
+font-size: 0.7rem;
+}
+
+.btn-gh:hover{
+font-size: 0.8rem;
+}
+
+.btn-ir:hover{
+font-size: 0.8rem;
+}
+
+.contacto{
+padding: 100px 25%;
+text-align: justify;
+background: white;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+}
+
+.contacto__titulo{
+text-align: center;
+}
+
+.contacto__formulario{
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 15px;
+border-radius: 3%;
+}
+
+.contacto__campo--textarea {
+resize:none;
+height: 150px;
+}
+
+.contacto__boton{
+font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #A4C2C5;
+  width: 100%;
+  }
+
+@media screen and (max-width: 600px) {
+.topnav{
+  overflow: scroll;
+  position: fixed;
+  bottom: 0%;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+}
+
+.topnav a{
+  font-size: 0.9rem;
+}
+footer{
+  display: none;
+}
+}
+
+@media screen and (max-width: 1024px){
+.topnav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.topnav a{
+  font-size: 17px;
+}
+}
