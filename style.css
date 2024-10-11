@@ -275,6 +275,7 @@ footer{
 
 @media screen and (max-width: 600px) {
 .topnav{
+  padding: 5px;
   position: fixed;
   bottom: 0%;
   height: 80px;
