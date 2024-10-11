@@ -275,10 +275,9 @@ footer{
 
 @media screen and (max-width: 600px) {
 .topnav{
-  overflow: scroll;
   position: fixed;
   bottom: 0%;
-  height: 70px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content:space-around;
@@ -287,6 +286,11 @@ footer{
 .topnav a{
   font-size: 0.9rem;
 }
+
+.topnav #contacto-nav{
+  display: none;
+}
+
 footer{
   display: none;
 }
