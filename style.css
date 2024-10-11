@@ -302,4 +302,16 @@ footer{
   display: none;
 }
 }
-
+@media screen and (max-width: 1024px) {
+  .topnav {
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    width: 100%;
+  }
+}
