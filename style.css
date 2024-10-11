@@ -237,7 +237,7 @@ font-size: 0.8rem;
 }
 
 .contacto{
-padding: 100px 25%;
+padding: 100px;
 text-align: justify;
 background: white;
 font-family: Arial, Helvetica, sans-serif;
@@ -249,7 +249,8 @@ text-align: center;
 }
 
 .contacto__formulario{
-width: 100%;
+width: 50%;
+margin: 0 auto;
 display: flex;
 flex-direction: column;
 gap: 15px;
@@ -266,12 +267,14 @@ font-weight: bold;
 }
 
 footer{
+  bottom: 0%;
   text-align: center;
-  padding: 5px;
+  padding: 0.5% 10%;
   font-weight: bold;
   background-color: #A4C2C5;
   width: 100%;
-  }
+  height: 1%;
+}
 
 @media screen and (max-width: 600px) {
 .topnav{
@@ -300,13 +303,3 @@ footer{
 }
 }
 
-@media screen and (max-width: 1024px){
-.topnav{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.topnav a{
-  font-size: 17px;
-}
-}
