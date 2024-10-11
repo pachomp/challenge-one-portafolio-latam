@@ -275,7 +275,6 @@ footer{
 
 @media screen and (max-width: 600px) {
 .topnav{
-  padding: 1px;
   position: fixed;
   bottom: 0%;
   height: 80px;
@@ -289,6 +288,10 @@ footer{
 }
 
 .topnav #contacto-nav{
+  display: none;
+}
+
+.topnav #pasatiempos{
   display: none;
 }
 
