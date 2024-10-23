@@ -172,6 +172,10 @@ flex-direction: column;
 align-items: center;
 }
 
+.experiencia__detalle{
+  font-weight: bold;
+}
+
 .experiencia__lista{
 display: flex;
 flex-direction: column;
@@ -186,7 +190,12 @@ width: 10%;
 width: 45%;
 }
 
+.experiencia__pelota{
+  width: 10%;
+}
+
 .experiencia__elemento{
+  background-color: #ffffff;
 border-style:double;
 border: 3px solid black;
 display:flex;
@@ -196,6 +205,7 @@ padding: 5%;
 }
 
 .experiencia__elemento2{
+  background-color: #ffffff;
 display: flex;
 border-style:double;
 border: 3px solid black;
@@ -203,6 +213,16 @@ flex-direction: column;
 text-align: center;
 padding: 5%;
 }
+
+.experiencia__elemento3{
+  background-color: #ffffff;
+  display: flex;
+  border-style:double;
+  border: 3px solid black;
+  flex-direction: column;
+  text-align: center;
+  padding: 5%;
+  }
 
 .btn-ir {
 border: 1px solid black; /*anchura, estilo y color borde*/
