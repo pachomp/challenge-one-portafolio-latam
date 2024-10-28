@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f9; /* Fondo general */
+  overflow-x: hidden;
 }
 header {
   position: fixed;
@@ -25,6 +29,7 @@ header {
   color: #ffd700 !important; /* Color dorado al pasar el mouse */
 }
 .section {
+  width: 100%;
   padding: 20px; /* Reducir padding para móviles */
   padding-top: 80px; /* Añadir espacio superior para evitar que quede pegado al header */
   text-align: center;
@@ -50,15 +55,21 @@ p {
   margin-bottom: 20px;
   color: inherit; /* Hereda el color de la sección */
 }
+.redes{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
 .pasatiempos__lista{
   margin-top: 5%;
-  gap: 50px;
+  gap: 5%;
   font-weight:bold;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction:row;
   justify-content: center;
+  width: 100%;
 }
 .pasatiempos__icono{
   display: flex;
@@ -79,6 +90,8 @@ p {
 }
 .rounded{
   width: 35%;
+  border-style:solid;
+  border-radius: 25%;
 }
 .descripcion{
   margin-top: 25px;
