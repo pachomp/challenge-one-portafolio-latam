@@ -1,160 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Francisco Muñoz</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTAFOLIO</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <a href="#sobre-mi">Acerca de mi</a>
-            <a href="#pasatiempos" id="pasatiempos">Pasatiempos</a>
-            <a href="#habilidades">Habilidades blandas</a>
-            <a href="#formacion">Formaciones y cursos</a>
-            <a href="#experiencia">Experiencia en programación</a>
-            <a href="#contacto" id="contacto-nav">Contacto</a>
-          </div>
-    </header>
-    <section class="presentacion" id="presentacion"></section>
-        <div class="presentacion__contenedor">
-            <img class="presentacion__imagen" src="/imagenes/1579918630093.jpg" alt="Foto">
-            <h2 class="presentacion__titulo">Hola, soy Francisco Muñoz</h2>
-            <h3 class="presentacion__subtitulo__consola">Profesional en Ingeniería de sistemas, técnico en programación de software, interesado en el desarrollo Front-end.</h3>                          
-            <div class="redes__img">
-                <a href="https://github.com/pachomp?tab=repositories" target="-blank"><i class="fab fa-github fa-2x" href></i></a>
-                <a href="https://www.linkedin.com/in/francisco-mu%C3%B1oz-022ab550/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            </div>
-        </div>
-    </section>
-    <section class="sobre-mi" id="sobre-mi">
-      <h2 class="sobre-mi__titulo">Sobre mí</h2>
-      <p class="sobre-mi__texto">Soy de Bogotá, Colombia. Soy un apasionado por la tecnología, actualmente me encuentro en búsqueda de empleo pero me mantengo en constante actualización de conocimientos.</p>
-      </p>     
-    </section> 
-      <section class="pasatiempos" id="pasatiempos">
-        <h2 class="pasatiempos__titulo">Pasatiempos</h2>
-        <ul class="pasatiempos__lista">
-            <li class="pasatiempos__elemento">
-                <img class="pasatiempos__icono" src="/imagenes/musica2.gif" alt="Escuchar música">
-                <p class="pasatiempos__nombre">Escuchar música</p>
-            </li>
-            <li class="pasatiempos__elemento">
-                <img class="pasatiempos__icono" src="/imagenes/perro.gif" alt="Salir con mis mascotas">
-                <p class="pasatiempos__nombre">Jugar con mis mascotas</p>
-            </li>
-            <li class="pasatiempos__elemento">
-                <img class="pasatiempos__icono" src="/imagenes/peli.gif" alt="Ver películas">
-                <p class="pasatiempos__nombre">Ver películas</p>
-            </li>
-            <li class="pasatiempos__elemento">
-                <img class="pasatiempos__icono" src="/imagenes/juego.gif" alt="Videojuegos">
-                <p class="pasatiempos__nombre">Videojuegos</p>
-            </li>
-        </ul>
-        </section>
-      <!-- Habilidades Blandas -->
-      <section class="habilidades" id="habilidades">
-      <div class="habilidades__subseccion">
-          <h3 class="habilidades__subtitulo">Habilidades Blandas</h3>
-          <ul class="habilidades__lista">
-              <li class="habilidades__elemento">
-                  <p class="habilidades__nombre">Trabajo en equipo</p>
-              </li>
-              <li class="habilidades__elemento">
-                  <p class="habilidades__nombre">Capacidad de análisis</p>
-              </li>
-              <li class="habilidades__elemento">
-                  <p class="habilidades__nombre">Resolución de problemas</p>
-              </li>
-              <li class="habilidades__elemento">
-                  <p class="habilidades__nombre">Pensamiento crítico</p>
-              </li>       
+  <header class="sticky-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">INICIO</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#section1">Acerca de mi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section2">Pasatiempos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section3">Habilidades blandas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section4">Formaciones y cursos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section5">Experiencia en programación</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section6">Contacto</a></li>
           </ul>
+        </div>
       </div>
-  </section>
-    <section class="formacion" id="formacion">
-      <h2 class="formacion__titulo">Formaciones y cursos</h2>
-      <ul class="formacion__lista">
-          <li class="formacion__elemento">
-              <img class="formacion__icono" src="/imagenes/Logo_de_la_UNAD.svg.png" alt="universidad logo">
-              <div>
-                  <h3 class="formacion__nombre">Ingeniero de sistemas</h3>
-                  <p class="formacion__detalle">2022</p>
-                  <p class="formacion__detalle2">Graduado</p>
-              </div>
-          </li>
-          <li class="formacion__elemento">
-              <img class="formacion__icono" src="/imagenes/sena.png" alt="Sena logo">
-              <div>
-                  <h3 class="formacion__nombre">Técnico en programación de software</h3>
-                  <p class="formacion__detalle">2014</p>
-                  <p class="formacion__detalle2">Graduado</p>
-              </div>
-          </li>
-          <li class="formacion__elemento">
-            <img class="formacion__icono" src="/imagenes/Oracle-Next-Education--e1678304093153.png" alt="Alura logo">
-            <div>
-                <h3 class="formacion__nombre">Oracle Next Education - Alura Latam</h3>
-                <p class="formacion__detalle">(En curso)</p>
-            </div>
-        </li>
-      </ul>
-  </section>
-  <section class="experiencia" id="experiencia">
-    <h2 class="experiencia__titulo">Experiencia en programación</h2>
+    </nav>
+  </header>
+  <div id="section1" class="section bg-color1">
+    <h2>Acerca de mi</h2>
+    <img class="presentacion__imagen" src="/imagenes/1579918630093.jpg" alt="Foto">
+    <h3 class="presentacion__titulo">Hola, soy Francisco Muñoz</h3>
+    <p>Profesional en Ingeniería de sistemas, técnico en programación de software, interesado en el desarrollo Front-end.</p>
+    <p>Soy de Bogotá, Colombia. Soy un apasionado por la tecnología, actualmente me encuentro en búsqueda de empleo pero me mantengo en constante actualización de conocimientos.</p>
+      <a href="https://github.com/pachomp?tab=repositories" target="-blank"><i class="fab fa-github fa-2x"></i>GitHub</a>
+      <a href="https://www.linkedin.com/in/francisco-mu%C3%B1oz-022ab550/" target="-blank"><i class="fab fa-linkedin fa-2x"></i>LinkedIn</a>
+  </div>
+  <div id="section2" class="section bg-color2">
+    <h2>Pasatiempos</h2>
+    <ul class="pasatiempos__lista">
+      <li class="pasatiempos__elemento">
+          <img class="pasatiempos__icono" src="/imagenes/musica2.gif" alt="Escuchar música">
+          <p class="pasatiempos__nombre">Escuchar música</p>
+      </li>
+      <li class="pasatiempos__elemento">
+          <img class="pasatiempos__icono" src="/imagenes/perro.gif" alt="Salir con mis mascotas">
+          <p class="pasatiempos__nombre">Jugar con mis mascotas</p>
+      </li>
+      <li class="pasatiempos__elemento">
+          <img class="pasatiempos__icono" src="/imagenes/peli.gif" alt="Ver películas">
+          <p class="pasatiempos__nombre">Ver películas</p>
+      </li>
+      <li class="pasatiempos__elemento">
+          <img class="pasatiempos__icono" src="/imagenes/juego.gif" alt="Videojuegos">
+          <p class="pasatiempos__nombre">Videojuegos</p>
+      </li>
+  </ul>
+  </div>
+  <div id="section3" class="section bg-color1">
+    <h2>Habilidades blandas</h2>
+      <p class="habilidades__nombre">Trabajo en equipo</p>
+      <p class="habilidades__nombre">Capacidad de análisis</p>
+      <p class="habilidades__nombre">Resolución de problemas</p>
+      <p class="habilidades__nombre">Pensamiento crítico</p>
+      <p class="habilidades__nombre">Autonomia</p>
+  </div>
+  <div id="section4" class="section bg-color2">
+    <h2>Formaciones y cursos</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <img src="/imagenes/Logo_de_la_UNAD.svg.png" class="rounded" alt="Imagen Unad">
+        <p class="descripcion">Ingeniero de sistemas</p>
+        <p class="estado">Graduado - 2021</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="/imagenes/sena.png" class="rounded" alt="Imagen Sena">
+        <p class="descripcion">Técnico en programación de software</p>
+        <p class="estado">Graduado - 2014</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="/imagenes/Oracle-Next-Education--e1678304093153.png" class="rounded" alt="Imagen ONE">
+        <p class="descripcion">Oracle Next Education - Alura Latam</p>
+        <p class="estado">(En curso)</p>
+      </div>
+    </div>
+  </div>
+  <div id="section5" class="section bg-color1">
+    <h2>Experiencia en programación</h2>
     <ul class="experiencia__lista">
-        <li class="experiencia__elemento">
-            <div>
-                <h3 class="experiencia__nombre">Analista - TGO Ltda</h3>
-                <img class="experiencia__icono_tgo" src="/imagenes/tgo.png" alt="logoTGO">
-                <p class="experiencia__detalle">2014-2015 En la empresa tuve la posibilidad de trabajar de la mano de desarrolladores y analistas técnicos y funcionales. Desempeñé destacadamente las labores de documentación y actualización de bases de datos de los requerimientos recibidos, desarrollados y entregados a pruebas.</p>
-            </div>
-        </li>
-        <li class="experiencia__elemento2">
-            <div>
-                <h3 class="experiencia__nombre">Encriptador/Desencriptador de texto</h3>
-                <img class="experiencia__icono" src="/imagenes/encriptador.png" alt="encriptadorimagen">
-                <p class="experiencia__detalle">2024 - Este es un proyecto del curso de Oracle Next Education que consta de una aplicación web que encripta/desencripta un texto dadas unas condiciones.</p>
-                <a class="btn-ir" href="https://proyecto-encriptador-livid.vercel.app/" target="_blank">Probar</a>
-                <a class="btn-gh" href="https://github.com/pachomp/Proyecto-encriptador" target="_blank">Repositorio</a>
-            </div>
-        </li>
-        <li class="experiencia__elemento3">
-            <div>
-                <h3 class="experiencia__nombre">Juego PONG</h3>
-                <img class="experiencia__pelota" src="/imagenes/pelota.png" alt="pelotaImagen">
-                <p class="experiencia__detalle">2024 - Este es un proyecto del curso de Oracle Next Education que consta del desarrollo del juego PONG. Aquí se hace uso de elementos de sonido para los golpes de las raquetas y una voz que va comentando el marcador.</p>
-                <a class="btn-ir" href="https://pong-francisco-munozs-projects.vercel.app/" target="_blank">Probar</a>
-                <a class="btn-gh" href="https://github.com/pachomp/pong" target="_blank">Repositorio</a>
-            </div>
-        </li>
-        <li class="experiencia__elemento4">
-            <div>
-                <h3 class="experiencia__nombre">AluraGeek</h3>
-                <img class="experiencia__alura" src="/imagenes/alura.png" alt="aluraImagen">
-                <p class="experiencia__detalle">2024 - Este es un proyecto para el curso de Oracle Next Education que consta del desarrollo de una página web donde se muestra el manejo de conceptos de Javascript como programación asíncrona, solicitudes HTTP, validación de formularios, manipulación del DOM, entre otros.</p>
-                <a class="btn-ir" href="https://alurageek-ten.vercel.app/" target="_blank">Probar</a>
-                <a class="btn-gh" href="https://github.com/pachomp/Alurageek" target="_blank">Repositorio</a>
-            </div>
-        </li>
-    </ul>
-</section>
-<section class="contacto" id="contacto">
-    <h2 class="contacto__titulo">Contacto</h2>
+      <li class="experiencia__elemento">
+          <div>
+              <h3 class="experiencia__nombre">Analista - TGO Ltda</h3>
+              <img class="experiencia__icono_tgo" src="/imagenes/tgo.png" alt="logoTGO">
+              <p class="experiencia__detalle">2014-2015 En la empresa tuve la posibilidad de trabajar de la mano de desarrolladores y analistas técnicos y funcionales. Desempeñé destacadamente las labores de documentación y actualización de bases de datos de los requerimientos recibidos, desarrollados y entregados a pruebas.</p>
+          </div>
+      </li>
+      <li class="experiencia__elemento2">
+          <div>
+              <h3 class="experiencia__nombre">Encriptador/Desencriptador de texto</h3>
+              <img class="experiencia__icono" src="/imagenes/encriptador.png" alt="encriptadorimagen">
+              <p class="experiencia__detalle">2024 - Este es un proyecto del curso de Oracle Next Education que consta de una aplicación web que encripta/desencripta un texto dadas unas condiciones.</p>
+              <a class="btn-ir" href="https://proyecto-encriptador-livid.vercel.app/" target="_blank">Probar</a>
+              <a class="btn-gh" href="https://github.com/pachomp/Proyecto-encriptador" target="_blank">Repositorio</a>
+          </div>
+      </li>
+      <li class="experiencia__elemento3">
+          <div>
+              <h3 class="experiencia__nombre">Juego PONG</h3>
+              <img class="experiencia__pelota" src="/imagenes/pelota.png" alt="pelotaImagen">
+              <p class="experiencia__detalle">2024 - Este es un proyecto del curso de Oracle Next Education que consta del desarrollo del juego PONG. Aquí se hace uso de elementos de sonido para los golpes de las raquetas y una voz que va comentando el marcador.</p>
+              <a class="btn-ir" href="https://pong-francisco-munozs-projects.vercel.app/" target="_blank">Probar</a>
+              <a class="btn-gh" href="https://github.com/pachomp/pong" target="_blank">Repositorio</a>
+          </div>
+      </li>
+      <li class="experiencia__elemento4">
+          <div>
+              <h3 class="experiencia__nombre">AluraGeek</h3>
+              <img class="experiencia__alura" src="/imagenes/alura.png" alt="aluraImagen">
+              <p class="experiencia__detalle">2024 - Este es un proyecto para el curso de Oracle Next Education que consta del desarrollo de una página web donde se muestra el manejo de conceptos de Javascript como programación asíncrona, solicitudes HTTP, validación de formularios, manipulación del DOM, entre otros.</p>
+              <a class="btn-ir" href="https://alurageek-ten.vercel.app/" target="_blank">Probar</a>
+              <a class="btn-gh" href="https://github.com/pachomp/Alurageek" target="_blank">Repositorio</a>
+          </div>
+      </li>
+  </ul>
+  </div>
+  <div id="section6" class="section bg-color2">
+    <h2>Contacto</h2>
     <form id="contacto-formulario" class="contacto__formulario">
-        <input class="contacto__campo" type="text" placeholder="Nombre">
-        <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-        <input class="contacto__campo" type="tema" placeholder="Asunto">
-        <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-        <button class="contacto__boton" type="submit">Enviar</button>
-    </form>
-</section>
-<!-- Pie de Página -->
-<footer>
-    <p>© Francisco Muñoz 2024 - framura2003@hotmail.com</p>
-</footer>
+      <input class="contacto__campo" type="text" placeholder="Nombre">
+      <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+      <input class="contacto__campo" type="tema" placeholder="Asunto">
+      <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+      <button class="contacto__boton" type="submit">Enviar</button>
+  </form>
+  </div>
+  <footer class="bg-gradient p-2 mt-4 text-white">
+    <div class="container text-center">
+      <p>Francisco Muñoz - framura2003@hotmail.com</p>
+    </div>
+  </footer>
 </body>
 </html>
