@@ -126,6 +126,9 @@ p {
 .experiencia__alura{
     width: 50%;
 }
+.experiencia__pokemon{
+  width: 50%;
+}
 .experiencia__elemento{
   background-color: #ffffff;
   border-style:double;
@@ -154,6 +157,15 @@ p {
   padding: 5%;
 }
 .experiencia__elemento4{
+  background-color: #ffffff;
+  display: flex;
+  border-style:double;
+  border: 3px solid black;
+  flex-direction: column;
+  text-align: center;
+  padding: 5%;
+}
+.experiencia__elemento5{
   background-color: #ffffff;
   display: flex;
   border-style:double;
