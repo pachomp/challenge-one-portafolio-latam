@@ -129,6 +129,9 @@ p {
 .experiencia__pokemon{
   width: 50%;
 }
+.experiencia__aluraflix{
+  width: 50%;
+}
 .experiencia__elemento{
   background-color: #ffffff;
   border-style:double;
